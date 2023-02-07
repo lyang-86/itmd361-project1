@@ -1,6 +1,6 @@
 # itmd361-project1
 
-##Lucy Yang
+## Lucy Yang
 
-###Main Page: Resume
-###Sub-Page: Winter Break Vacation, Favorite Restaurants
+### Main Page: Resume
+### Sub-Page: Winter Break Vacation, Favorite Restaurants
