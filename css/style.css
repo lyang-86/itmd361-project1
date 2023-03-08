@@ -65,3 +65,34 @@ img, video{
 #winter section {
     text-align: center;
 }
+#winter .column {
+    float: left;
+    width: 31.2%;
+    padding: 20px;
+}
+#restaurants .column {
+    float: left;
+    width: 31.1%;
+    padding: 20px;
+}
+.row {
+    display: table;
+}
+#winter .column {
+    float: left;
+    width: 31.2%;
+    padding: 20px;
+}
+#restaurants .column {
+    float: left;
+    width: 31.1%;
+    padding: 20px;
+}
+.row {
+    display: table;
+}
+.item {
+    padding: 40px;
+    text-align: center;
+    background-color: #c5ceff;
+}
