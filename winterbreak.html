@@ -1,60 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>ITMD 361 - Project 1</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <h2>Pages:</h2>
-        <ul>
-          <li><a href="index.html">Resume</a></li>
-          <li><a href="winterbreak.html">Winter Break</a></li>
-          <li><a href="restaurants.html">Favorite Restaurants</a></li>
-        </ul>
+      <nav id="main-navbar">
+        <div id="navbar-container">
+          <ul>
+            <li><a href="index.html">Resume</a></li>
+            <li id="currpage"><a href="winterbreak.html">Winter Break</a></li>
+            <li><a href="restaurants.html">Favorite Restaurants</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
-    <h1>Winter Break 2022-2023</h1>
+    <div id="winter">
+      <h1>Winter Break 2022-2023</h1>
 
-    <section>
-      <h2>Disney World</h2>
-      <h3>Hollywood Studios Florida</h3>
-      <p>Christmas Tree in Hollywood Studios</p>
-      <img src="media/hollywood_tree.jpg" alt="Christmas Tree">
-      <p>50th Anniversary and Christmas Themed Funnel Cake</p>
-      <img src="media/hollywood_food.jpg" alt="Funnel Cake">
-      <h3>Magic Kingdom</h3>
-      <p>Splash Mountain Ride (Discontinued Feburary 2023</p>
-      <img src="media/splash_mountain.jpg" alt="Splash Mountain">
-      <p>Walking along lit up streets</p>
-      <img src="media/magic_kingdom.jpg" alt="Night Lights">
-      <p>Fireworks at Cinderella's Castle</p>
-      <img src="media/castle.jpg" alt="Disney Castle Fireworks">
-      <video width="500" height="320" controls>
-        <source src="media/disney_fireworks.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <h3>Animal Kingdom</h3>
-      <p>Food at Avatar Themed Satu'li Canteen</p>
-      <img src="media/avatar.jpg" alt="Avatar Food">
-      <p>Navi River Journey Ride</p>
-      <video width="500" height="320" controls>
-        <source src="media/navi_river.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </section>
+      <section>
+        <h2>Disney World</h2>
+        <div class="row">
+          <div class="column">
+            <div class="item">
+              <h3>Hollywood Studios Florida</h3>
+              <p>Christmas Tree in Hollywood Studios</p>
+              <img src="media/hollywood_tree.jpg" alt="Christmas Tree" />
+              <p>50th Anniversary and Christmas Themed Funnel Cake</p>
+              <img src="media/hollywood_food.jpg" alt="Funnel Cake" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="item">
+              <h3>Magic Kingdom</h3>
+              <p>Splash Mountain Ride (Discontinued Feburary 2023</p>
+              <img src="media/splash_mountain.jpg" alt="Splash Mountain" />
+              <p>Walking along lit up streets</p>
+              <img src="media/magic_kingdom.jpg" alt="Night Lights" />
+              <p>Fireworks at Cinderella's Castle</p>
+              <img src="media/castle.jpg" alt="Disney Castle Fireworks" />
+              <video width="500" height="320" controls>
+                <source src="media/disney_fireworks.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="column">
+            <div class="item">
+              <h3>Animal Kingdom</h3>
+              <p>Food at Avatar Themed Satu'li Canteen</p>
+              <img src="media/avatar.jpg" alt="Avatar Food" />
+              <p>Navi River Journey Ride</p>
+              <video width="500" height="320" controls>
+                <source src="media/navi_river.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
 
-    <section>
-      <h2>Universal Orlando</h2>
-      <h3>Universal Studios</h3>
-      <p>Escape from Gringott's Ride Queue</p>
-      <img src="media/gringotts.jpg" alt="Gringotts Bank">
-      <p>Diagon Alley</p>
-      <img src="media/diagon_alley.jpg" alt="Diagon Alley">
-      <h3>Islands of Adventure</h3>
-      <p>Hogwart's Castle (Harry Potter and the Forbidden Journey Ride)</p>
-      <img src="media/hogwarts.jpg" alt="Hogwarts">
-    </section>
+      <section>
+        <h2>Universal Orlando</h2>
+        <div class="row">
+          <div class="column">
+            <div class="item">
+              <h3>Universal Studios</h3>
+              <p>Escape from Gringott's Ride Queue</p>
+              <img src="media/gringotts.jpg" alt="Gringotts Bank" />
+              <p>Diagon Alley</p>
+              <img src="media/diagon_alley.jpg" alt="Diagon Alley" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="item">
+              <h3>Islands of Adventure</h3>
+              <p>
+                Hogwart's Castle (Harry Potter and the Forbidden Journey Ride)
+              </p>
+              <img src="media/hogwarts.jpg" alt="Hogwarts" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>

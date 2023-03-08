@@ -3,23 +3,29 @@
   <head>
     <meta charset="UTF-8">
     <title>ITMD 361 - Project 1</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <header>
-      <nav>
-        <h2>Pages:</h2>
-        <ul>
-          <li><a href="index.html">Resume</a></li>
-          <li><a href="winterbreak.html">Winter Break</a></li>
-          <li><a href="restaurants.html">Favorite Restaurants</a></li>
-        </ul>
+    <header>  
+      <nav id="main-navbar">
+        <div id="navbar-container">
+          <ul>
+            <li id="currpage"><a href="index.html">Resume</a></li>
+            <li><a href="winterbreak.html">Winter Break</a></li>
+            <li><a href="restaurants.html">Favorite Restaurants</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <h1>Lucy Yang's Resume</h1>
-    <p>lyang86@hawk.iit.edu</p>
-    <a href="https://www.linkedin.com/in/lucy-yang-55b245155/">LinkedIn</a>
 
+    <div id="contact">
+      <p>lyang86@hawk.iit.edu</p>
+      <a href="https://www.linkedin.com/in/lucy-yang-55b245155/">LinkedIn</a>
+    </div>
+
+    <div id="resume">
     <section>
       <h2>Skills/Projects</h2>
       <h3>CS Languages & Methods</h3>
@@ -98,5 +104,6 @@
         </li>
       </ul>
     </section>
+  </div>
   </body>
 </html>
