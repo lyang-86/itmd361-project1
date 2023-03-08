@@ -48,6 +48,9 @@ h1 {
 #contact {
     text-align: center;
 }
+#contact img {
+    width: 20%;
+}
 img, video{
     display: block;
     margin-left: auto;
