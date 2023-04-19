@@ -99,3 +99,10 @@ img, video{
   text-align: center;
   background-color: #c5ceff;
 }
+
+#map {
+  width: 850px;
+  height: 600px;
+  background-color: white;
+  border: solid rgb(81, 129, 206) 2px;
+}

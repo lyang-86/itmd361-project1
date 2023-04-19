@@ -5,11 +5,4 @@ function initMap() {
   });
 }
 
-$(document).ready(function() {
-  $(".bxslider").bxSlider({
-    mode: "horizontal",
-    auto: true,
-  });
-});
-
 window.initMap = initMap;
