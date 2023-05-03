@@ -53,6 +53,7 @@ h1 {
 }
 #contact img {
   width: 20%;
+  min-width: 350px;
 }
 img, video{
   display: block;
@@ -101,4 +102,5 @@ img, video{
   border: solid rgb(81, 129, 206) 5px;
   margin-right: auto;
   margin-left: auto;
+  min-width: 350px;
 }
