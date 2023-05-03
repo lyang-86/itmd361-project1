@@ -102,5 +102,16 @@ img, video{
   border: solid rgb(81, 129, 206) 5px;
   margin-right: auto;
   margin-left: auto;
-  min-width: 350px;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightcoral;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lightskyblue;
+  }
 }
